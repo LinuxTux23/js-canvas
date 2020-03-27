@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="main.js" async defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="toolbar">
+        <div class="toolbar-functions">
+            <div class="toolbar-item"><i class="fa fa-floppy-o"></i> Save</div>
+            <div class="toolbar-item"><i class="fa fa-paint-brush"></i> <input type="color" name="colorPicker"></div>
+            <div class="toolbar-item"><i class="fa fa-arrows-h"></i> <input type="number" id="brush-width"></div>
+        </div>
+        <div class="toolbar-objects">
+            <div class="toolbar-item"><i class="fa fa-pencil"></i> Free Draw</div>
+            <div class="toolbar-item"><i class="fa fa-minus"></i> Line</div>
+            <div class="toolbar-item"><i class="fa fa-font"></i> Text</div>
+            <div class="toolbar-item"><i class="fa fa-square-o"></i> Rect</div>
+            <div class="toolbar-item"><i class="fa fa-circle-o"></i> Circle</div>
+        </div>
+    </div>
+    <br>
+    <div class="canvas-area">
+        <canvas id="mein_canvas" width="1500px" height="500" onclick="drawLineStart()" ondblclick="drawLineEnd()"></canvas>
+        <br>
+        <div class="mousePos" id="mousePos"></div>
+    </div>
+    <br>
+    Anleitung:<br>
+    Doppelklick auf Zeichenfläche, um Linie auf Koordinaten zu zeichnen<br>
+    Rechtsklick zum Speichern<br>
+</body>
+</html>

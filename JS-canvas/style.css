@@ -1,0 +1,52 @@
+.toolbar{
+    border: black solid;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-flow: wrap;
+}
+.toolbar-functions{
+    border: black solid;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-flow: wrap; 
+}
+.toolbar-objects{
+    border: black solid;
+    display: flex;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-flow: wrap;    
+}
+.toolbar-item{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: inherit;
+    font-size: 22px;
+    text-align: inherit;
+    cursor: pointer;
+}
+.canvas-area{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mein_canvas{
+    border: black solid;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: crosshair;
+}
+.mousePos{
+    font-size: 22px;
+}
