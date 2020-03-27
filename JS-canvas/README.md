@@ -6,5 +6,5 @@ Icons from: https://fontawesome.com/
 
 ## Tasklist
 
-[X] Finish Design
-[X] Add JS Functions
+- [ ] Finish Design
+- [ ] Add JS Functions
