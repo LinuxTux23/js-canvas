@@ -1,7 +1,11 @@
-# Public - Code
-Public Code Repository
+## JavaScript Canvas Tool
 
-- Here You can see my public code projects.
-- Fell free to clone them !
+This is a Canvas Tool written in JS.
 
-LinuxTux23
+-----------------------
+
+**This project is no longer maintained !**
+
+------------------------------------------------------
+
+*Last Edit: 28/05.2020*
