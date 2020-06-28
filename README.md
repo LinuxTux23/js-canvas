@@ -8,4 +8,4 @@ This is a Canvas Tool written in JS.
 
 ------------------------------------------------------
 
-*Last Edit: 28/05.2020*
+*Last Edit: 28/05/2020*
